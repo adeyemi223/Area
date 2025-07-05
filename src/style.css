@@ -211,9 +211,9 @@ nav li a:hover {
   padding-block: 2em;
 }
 
-.hero_small_text small{
+.hero_small_text small {
   font-size: 0.938rem;
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .hero_brand_logos {
@@ -224,7 +224,7 @@ nav li a:hover {
 }
 
 .brands * + * {
-  padding-block: .4em;
+  padding-block: 0.4em;
 }
 
 .brands small {
@@ -233,15 +233,15 @@ nav li a:hover {
   font-family: var(--font2);
 }
 
-.brands h2{
+.brands h2 {
   font-size: 3.75rem;
   font-family: var(--font2);
   font-weight: normal;
 }
 
-.brands p{
+.brands p {
   font-size: 0.938rem;
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .brand_cards {
@@ -257,7 +257,7 @@ nav li a:hover {
   border-top: 1px solid #00000025;
 }
 
-.card img{
+.card img {
   padding: 1em 0;
 }
 
@@ -266,11 +266,64 @@ nav li a:hover {
   font-family: var(--font2);
 }
 
-.card p{
+.card p {
   font-size: 0.938rem;
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .brand_image {
   padding-top: 3em;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+.feature_list,
+.feature_image {
+  flex-basis: 100%;
+}
+
+.feature_list h2 {
+  font-size: 3.75rem;
+  font-family: var(--font2);
+  padding: 0.4em 0;
+}
+
+.feature_list h4{
+  color: #6f6f6f;
+  font-size: 0.938rem;
+  padding-bottom: 3em;
+}
+
+.feature_item {
+  display: flex;
+  gap: 1em;
+  padding: 1.5em 0;
+  border-top: 1px solid #00000025;
+}
+
+.feature_item__number {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #6f6f6f;
+}
+
+
+.btn {
+  border-radius: 100vmax;
+  border: none;
+  padding: 1em 2em;
+  background-color: #DFECC6;
+  font-weight: 700;
+}
+
+.btn:hover{
+  background-color: #485c11;
+  color: #000000;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  color: #ffffff;
 }
