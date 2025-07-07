@@ -359,15 +359,36 @@ nav li a:hover {
   margin: 0 auto;
 }
 
-.reasons_table {
+.table_container {
   width: 100%;
-  margin-top: 5rem;
+  overflow-x: auto;
 }
 
-table,
-th,
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 5rem;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+th {
+  padding: 2em;
+  border-bottom: 1px solid #00000046;
+}
+
 td {
-  border: 1px solid black;
+  padding: 2em;
+  border: 1px solid #00000015;
+}
+
+th:first-child,
+td:first-child {
+  box-shadow: rgba(0, 0, 0, 0.05) 2px 0px 1px 1px;
+}
+
+th:first-child {
+  border-top-right-radius: 20px;
 }
 
 .head_of_data {
